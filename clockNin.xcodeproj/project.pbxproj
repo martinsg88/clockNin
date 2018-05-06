@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		513F4BEA2095C09500CAFC4F /* clockNinNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513F4BE92095C09500CAFC4F /* clockNinNavBar.swift */; };
+		514A2714209F110D0020C17F /* clockNinEventController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514A2713209F110D0020C17F /* clockNinEventController.swift */; };
+		51566441209EF6EA00E8F937 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51566440209EF6EA00E8F937 /* CalendarViewController.swift */; };
 		51C784E52095BB650028C6FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C784E42095BB650028C6FC /* AppDelegate.swift */; };
 		51C784E72095BB650028C6FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C784E62095BB650028C6FC /* ViewController.swift */; };
 		51C784EA2095BB650028C6FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C784E82095BB650028C6FC /* Main.storyboard */; };
@@ -15,6 +18,10 @@
 		51C784F22095BB670028C6FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C784F02095BB670028C6FC /* LaunchScreen.storyboard */; };
 		51C784FD2095BB670028C6FC /* clockNinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C784FC2095BB670028C6FC /* clockNinTests.swift */; };
 		51C785082095BB670028C6FC /* clockNinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C785072095BB670028C6FC /* clockNinUITests.swift */; };
+		51F4A667209DBE58006635EA /* clockNinButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F4A666209DBE58006635EA /* clockNinButton.swift */; };
+		51F8EAC0209F3C9700AD03DB /* timeObjectClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8EABF209F3C9700AD03DB /* timeObjectClass.swift */; };
+		51F8EAC2209F416000AD03DB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8EAC1209F416000AD03DB /* TableViewController.swift */; };
+		E866B4A7CC7C32D60E12AE88 /* libPods-clockNin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D5606B5773AAC75DB040D9 /* libPods-clockNin.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		339C9A5BD533A4F8075BA5BD /* Pods-clockNin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clockNin.release.xcconfig"; path = "Pods/Target Support Files/Pods-clockNin/Pods-clockNin.release.xcconfig"; sourceTree = "<group>"; };
+		40D5606B5773AAC75DB040D9 /* libPods-clockNin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-clockNin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		513F4BE92095C09500CAFC4F /* clockNinNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clockNinNavBar.swift; sourceTree = "<group>"; };
+		514A2713209F110D0020C17F /* clockNinEventController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clockNinEventController.swift; sourceTree = "<group>"; };
+		51566440209EF6EA00E8F937 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		51818BA0209F149600BA44E7 /* clockNin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "clockNin-Bridging-Header.h"; sourceTree = "<group>"; };
 		51C784E12095BB650028C6FC /* clockNin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clockNin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C784E42095BB650028C6FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51C784E62095BB650028C6FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +62,10 @@
 		51C785032095BB670028C6FC /* clockNinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clockNinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C785072095BB670028C6FC /* clockNinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clockNinUITests.swift; sourceTree = "<group>"; };
 		51C785092095BB670028C6FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51F4A666209DBE58006635EA /* clockNinButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clockNinButton.swift; sourceTree = "<group>"; };
+		51F8EABF209F3C9700AD03DB /* timeObjectClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeObjectClass.swift; sourceTree = "<group>"; };
+		51F8EAC1209F416000AD03DB /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = /Users/martinsg88/Desktop/clockNin/clockNin/Views/TableViewController.swift; sourceTree = "<absolute>"; };
+		9A1FAAB7C09987867CF9FBF7 /* Pods-clockNin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clockNin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-clockNin/Pods-clockNin.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E866B4A7CC7C32D60E12AE88 /* libPods-clockNin.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +94,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51AF5127209EE686008225A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				51C784E62095BB650028C6FC /* ViewController.swift */,
+				51F8EAC1209F416000AD03DB /* TableViewController.swift */,
+				51566440209EF6EA00E8F937 /* CalendarViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		51AF5128209EE691008225A6 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				51C784E42095BB650028C6FC /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		51AF5129209EE69B008225A6 /* parts */ = {
+			isa = PBXGroup;
+			children = (
+				51F8EABF209F3C9700AD03DB /* timeObjectClass.swift */,
+				513F4BE92095C09500CAFC4F /* clockNinNavBar.swift */,
+				51F4A666209DBE58006635EA /* clockNinButton.swift */,
+				514A2713209F110D0020C17F /* clockNinEventController.swift */,
+			);
+			path = parts;
+			sourceTree = "<group>";
+		};
+		51AF512A209EE6AC008225A6 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				51C784E82095BB650028C6FC /* Main.storyboard */,
+				51C784F02095BB670028C6FC /* LaunchScreen.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
+		51AF512B209EE6B6008225A6 /* lists */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = lists;
+			sourceTree = "<group>";
+		};
 		51C784D82095BB650028C6FC = {
 			isa = PBXGroup;
 			children = (
+				51818BA0209F149600BA44E7 /* clockNin-Bridging-Header.h */,
 				51C784E32095BB650028C6FC /* clockNin */,
 				51C784FB2095BB670028C6FC /* clockNinTests */,
 				51C785062095BB670028C6FC /* clockNinUITests */,
 				51C784E22095BB650028C6FC /* Products */,
+				5DB090527EA22923602552A4 /* Pods */,
+				55DE07C443037966EE44D67B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +165,14 @@
 		51C784E32095BB650028C6FC /* clockNin */ = {
 			isa = PBXGroup;
 			children = (
-				51C784E42095BB650028C6FC /* AppDelegate.swift */,
-				51C784E62095BB650028C6FC /* ViewController.swift */,
-				51C784E82095BB650028C6FC /* Main.storyboard */,
-				51C784EE2095BB670028C6FC /* Assets.xcassets */,
-				51C784F02095BB670028C6FC /* LaunchScreen.storyboard */,
 				51C784F32095BB670028C6FC /* Info.plist */,
 				51C784EB2095BB650028C6FC /* clockNin.xcdatamodeld */,
+				51AF512B209EE6B6008225A6 /* lists */,
+				51AF512A209EE6AC008225A6 /* storyboards */,
+				51AF5129209EE69B008225A6 /* parts */,
+				51AF5128209EE691008225A6 /* Delegate */,
+				51AF5127209EE686008225A6 /* Views */,
+				51C784EE2095BB670028C6FC /* Assets.xcassets */,
 			);
 			path = clockNin;
 			sourceTree = "<group>";
@@ -128,6 +195,23 @@
 			path = clockNinUITests;
 			sourceTree = "<group>";
 		};
+		55DE07C443037966EE44D67B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40D5606B5773AAC75DB040D9 /* libPods-clockNin.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DB090527EA22923602552A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A1FAAB7C09987867CF9FBF7 /* Pods-clockNin.debug.xcconfig */,
+				339C9A5BD533A4F8075BA5BD /* Pods-clockNin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51C7850C2095BB670028C6FC /* Build configuration list for PBXNativeTarget "clockNin" */;
 			buildPhases = (
+				9A9FCAACC162C5EAFEEF00B3 /* [CP] Check Pods Manifest.lock */,
 				51C784DD2095BB650028C6FC /* Sources */,
 				51C784DE2095BB650028C6FC /* Frameworks */,
 				51C784DF2095BB650028C6FC /* Resources */,
@@ -254,13 +339,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9A9FCAACC162C5EAFEEF00B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-clockNin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		51C784DD2095BB650028C6FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51566441209EF6EA00E8F937 /* CalendarViewController.swift in Sources */,
 				51C784E72095BB650028C6FC /* ViewController.swift in Sources */,
 				51C784E52095BB650028C6FC /* AppDelegate.swift in Sources */,
+				513F4BEA2095C09500CAFC4F /* clockNinNavBar.swift in Sources */,
+				51F8EAC0209F3C9700AD03DB /* timeObjectClass.swift in Sources */,
+				51F4A667209DBE58006635EA /* clockNinButton.swift in Sources */,
+				514A2714209F110D0020C17F /* clockNinEventController.swift in Sources */,
+				51F8EAC2209F416000AD03DB /* TableViewController.swift in Sources */,
 				51C784ED2095BB650028C6FC /* clockNin.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +544,7 @@
 		};
 		51C7850D2095BB670028C6FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A1FAAB7C09987867CF9FBF7 /* Pods-clockNin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,13 +556,15 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Home.clockNin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "clockNin-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		51C7850E2095BB670028C6FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 339C9A5BD533A4F8075BA5BD /* Pods-clockNin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -461,8 +576,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Home.clockNin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "clockNin-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
