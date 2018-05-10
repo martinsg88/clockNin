@@ -13,4 +13,19 @@ class clockNinButton: UIButton {
         button.layer.cornerRadius = 0.2 * button.bounds.size.width
         return button
     }
+    
+    static func returnGreyButton(button: UIButton)->UIButton{
+        button.alpha = CGFloat(0.5)
+        button.isEnabled = false
+        button.isUserInteractionEnabled = false
+        return button
+    }
+    
+    static func returnNormalButton(button: UIButton)->UIButton{
+        button.alpha = CGFloat(1.0)
+        button.isEnabled = true
+        button.isUserInteractionEnabled = true
+        return button
+    }
+    
 }

@@ -9,5 +9,15 @@
 import UIKit
 
 class timeObjectClass: NSObject {
+    
+    static public func returnFormatter()->DateFormatter{
+        let formatter: DateFormatter = {
+            let tmpFormatter = DateFormatter()
+            tmpFormatter.dateFormat = "hh:mm a"
+            return tmpFormatter
+        }()
+        
+        return formatter
+    }
 
 }
