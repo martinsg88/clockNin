@@ -19,5 +19,10 @@ class timeObjectClass: NSObject {
         
         return formatter
     }
+    
+    static public func returnTimerSetting(target: Any, selector: Selector)->Timer{
+        let timer = Timer.scheduledTimer(timeInterval: 5.0, target: target , selector: selector, userInfo: nil, repeats: false);
+        return timer;
+    }
 
 }

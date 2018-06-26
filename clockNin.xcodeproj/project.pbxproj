@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		513F4BEA2095C09500CAFC4F /* clockNinNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513F4BE92095C09500CAFC4F /* clockNinNavBar.swift */; };
 		514A2714209F110D0020C17F /* clockNinEventController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514A2713209F110D0020C17F /* clockNinEventController.swift */; };
+		514BFCCF20C3EB92005AB634 /* MainPLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514BFCCE20C3EB92005AB634 /* MainPLViewController.swift */; };
 		51566441209EF6EA00E8F937 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51566440209EF6EA00E8F937 /* CalendarViewController.swift */; };
 		51C784E52095BB650028C6FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C784E42095BB650028C6FC /* AppDelegate.swift */; };
 		51C784E72095BB650028C6FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C784E62095BB650028C6FC /* ViewController.swift */; };
@@ -46,6 +47,7 @@
 		40D5606B5773AAC75DB040D9 /* libPods-clockNin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-clockNin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		513F4BE92095C09500CAFC4F /* clockNinNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clockNinNavBar.swift; sourceTree = "<group>"; };
 		514A2713209F110D0020C17F /* clockNinEventController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clockNinEventController.swift; sourceTree = "<group>"; };
+		514BFCCE20C3EB92005AB634 /* MainPLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPLViewController.swift; sourceTree = "<group>"; };
 		51566440209EF6EA00E8F937 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		51818BA0209F149600BA44E7 /* clockNin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "clockNin-Bridging-Header.h"; sourceTree = "<group>"; };
 		51C784E12095BB650028C6FC /* clockNin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clockNin.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +102,7 @@
 				51C784E62095BB650028C6FC /* ViewController.swift */,
 				51F8EAC1209F416000AD03DB /* TableViewController.swift */,
 				51566440209EF6EA00E8F937 /* CalendarViewController.swift */,
+				514BFCCE20C3EB92005AB634 /* MainPLViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -374,6 +377,7 @@
 				514A2714209F110D0020C17F /* clockNinEventController.swift in Sources */,
 				51F8EAC2209F416000AD03DB /* TableViewController.swift in Sources */,
 				51C784ED2095BB650028C6FC /* clockNin.xcdatamodeld in Sources */,
+				514BFCCF20C3EB92005AB634 /* MainPLViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
